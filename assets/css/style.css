@@ -52,3 +52,12 @@ body{
 	  opacity:1;
 	}
 }
+.custom-box::before,
+.custom-box::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+.custom-box.hide{
+	display: none;
+}
