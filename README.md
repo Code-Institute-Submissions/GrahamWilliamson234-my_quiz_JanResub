@@ -83,3 +83,22 @@ The results of these test are shown below:
 <img title="lighthouse" alt="lighthouse result" src="assets/images/lighthouse.png";>
 
 ### Quiz tested on multiple browers such as Chrome, Firefox and Edge with no issues.
+
+# Tools
+
+This project used HTML5, CSS3 and Javascript.
+<div>
+<img title="languages" alt="HTML, CSS and Javascript logos" src="assets/images/tools.png">
+</div>
+
+As well as the Code Institute course content, and as with my first project, I got inspiration from some
+online tutorials and video's and also books such as  books from Mike McGraths and video tutorials from Mike Dane.
+
+At times I found Javascript challenging and I needed to dig deep into my resourses, thankfully there are so many online tutorials out there to help.
+
+The India based YouTube channel'The WebShala'was of great help on the project with so many helpful and inspiring tutorials. My thanks to The WebShala.
+
+### Font Awesome [Website](https://fontawesome.com/search)
+### Boxicons [Website](https://boxicons.com/)
+### Github [Website](https://github.com/)
+### Slack [Website](https://slack.com/intl/en-ie/)
