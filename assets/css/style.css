@@ -42,3 +42,13 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+@keyframes fadeInRight{
+	0%{
+		transform: translateX(40px);
+		opacity:0;
+	}
+	100%{
+	  transform: translateX(0px);	
+	  opacity:1;
+	}
+}
