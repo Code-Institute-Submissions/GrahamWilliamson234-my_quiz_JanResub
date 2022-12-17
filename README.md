@@ -35,3 +35,18 @@ The question page has the same background as the main page with the question box
 <div>
 <img title="Question Page" alt="Question and multiple choice answers" src="assets/images/README2.png";>
 </div>
+
+## <b>Results Page:</b>
+The results page will show the total questions in the quiz, the attemped number, correct and wrong number, the over percentage and the total score.
+this page aslo includes both a 'Try again'and 'Go to Home'buttons.
+<div>
+<img title="Results page Page" alt="Quiz results" src="assets/images/README3.png">
+</div>
+
+## <b>Favicon:</b>
+To finish off the design of this website, I added a favicon of a cartoon brain as a sign of intellegence with a dash of fun.
+
+<div>
+<img title="favicon" alt="Website favicon" src="assets/images/favicon.png";>
+</div>
+
