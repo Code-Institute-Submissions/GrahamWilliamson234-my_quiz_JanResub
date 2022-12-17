@@ -13,4 +13,12 @@ const questionNumber = document.querySelector(".question-number");
  let correctAnswers = 0;
  let attempt = 0;
 
+ // push questions to availableQuestions Array
+ function setAvailableQuestions(){
+    const totalQuestion = quiz.length;
+    for(let i=0; i<totalQuestion; i++){
+    	availableQuestions.push(quiz[i]);
+    }
+ }
+
  
