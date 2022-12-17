@@ -50,3 +50,31 @@ To finish off the design of this website, I added a favicon of a cartoon brain a
 <img title="favicon" alt="Website favicon" src="assets/images/favicon.png";>
 </div>
 
+# Validation
+To ensure the functionality of this project I had 3 tasks.
+1. HTML Validation
+<input type="checkbox" input checked>
+2. CSS Validation
+<input type="checkbox" input checked>
+3. JSHint Check
+<input type="checkbox" input checked>
+4. Lighthouse Accessibility
+<input type="checkbox" input checked>
+
+The results of these test are shown below:
+<ul>
+<li>HTML <ul style="list-style-type:circle"><li>No errors returned on W3C HTML validator</li></ul>
+</li>
+<li>CSS <ul style="list-style-type:circle"><li>No errors returned on W3C CSS validator<br>
+<img style="border:0;width:88px;height:31px"
+        src="https://jigsaw.w3.org/css-validator/images/vcss"
+        alt="Valid CSS!"/></li></ul>
+</li>
+<li>Javascript <ul style="list-style-type:circle"><li>No errors returned on JSHint validator</li></ul>
+</li>
+<li>Accessibility <ul style="list-style-type:circle"><li>On website inspection, lighthouse results are shown below</li></ul>
+</li>
+</ul>
+<img title="lighthouse" alt="lighthouse result" src="assets/images/lighthouse.png";>
+
+### Quiz tested on multiple browers such as Chrome, Firefox and Edge with no issues.
