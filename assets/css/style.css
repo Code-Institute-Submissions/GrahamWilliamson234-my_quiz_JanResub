@@ -61,3 +61,24 @@ body{
 .custom-box.hide{
 	display: none;
 }
+.home-box h3{
+	font-size: 20px;
+	color: black;
+	font-weight: 500;
+	margin-bottom: 15px;
+	line-height: 25px;
+}
+
+.home-box p{
+	font-size: 25px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color: black;
+	font-weight: 400;
+}
+.home-box p span{
+	font-weight: 500;
+}
+.home-box .btn{
+  margin-top: 20px;
+}
