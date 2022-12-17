@@ -70,4 +70,33 @@ const questionNumber = document.querySelector(".question-number");
     questionCounter++;
  }
 
- 
+ // get the result of current attempt question
+ function getResult(element){
+    const id = parseInt(element.id);
+    // get the answer by comparing the id of clicked option
+    if(id === currentQuestion.answer){
+        // set the green color to the correct option
+        element.classList.add("correct");
+        // add the indicator to correct mark
+        updateAnswerIndicator("correct");
+        correctAnswers++;
+    }
+    else{
+        // set the red color to the incorrect option
+        element.classList.add("wrong");
+        // add the indicator to wrong mark
+        updateAnswerIndicator("wrong");
+
+       // if the answer is incorrect then show the correct option by adding green color the correct option
+       const optionLen = optionContainer.children.length;
+       for(let i=0; i<optionLen; i++){
+           if(parseInt(optionContainer.children[i].id) === currentQuestion.answer){
+             optionContainer.children[i].classList.add("correct");  		
+           }
+       }   
+      
+    }
+  attempt++;
+  unclickableOptions();
+}
+
