@@ -124,3 +124,11 @@ The India based YouTube channel'The WebShala'was of great help on the project wi
 
 <br>
 
+# Influences & Credit
+
+### The WebShala [YouTube](https://www.youtube.com/@TheWebShala)
+
+### Mike Dane [Website](https://www.mikedane.com/) [YouTube](https://www.youtube.com/c/GiraffeAcademy)
+
+### W3 School [Website](https://www.w3schools.com/js/default.asp)
+
