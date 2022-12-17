@@ -258,3 +258,27 @@ body{
 .result-box .btn{
 	margin-right: 20px;
 }
+@media(max-width: 760px){
+	.result-box .btn{
+		margin-bottom: 15px;
+	}
+	* {
+		width: 90%;
+	}
+	body{
+		padding: 25px;
+		padding-bottom: 180px;
+		height: 150%;
+	}
+	.icon{
+		text-align: center;
+		margin-left: 8px;
+	}
+	h1{
+		font-size: 60px;
+		text-align: center;
+	}
+	.copyright{
+		padding-left: 50px;
+	}
+}
