@@ -135,4 +135,35 @@ function unclickableOptions(){
     quizResult();
  }
 
+ // get the quiz Result
+ function quizResult(){
+    resultBox.querySelector(".total-question").innerHTML = questionLimit;
+    resultBox.querySelector(".total-attempt").innerHTML = attempt;
+    resultBox.querySelector(".total-correct").innerHTML = correctAnswers;
+    resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
+    const percentage = (correctAnswers/questionLimit)*100;
+    resultBox.querySelector(".percentage").innerHTML =percentage.toFixed(2) + "%";
+    resultBox.querySelector(".total-score").innerHTML =correctAnswers +" / " + questionLimit;
+  }
  
+  function resetQuiz(){
+     questionCounter = 0;
+     correctAnswers = 0;
+     attempt = 0;
+     availableQuestions = [];
+  }
+ 
+  function tryAgainQuiz(){
+       resultBox.classList.add("hide");
+       quizBox.classList.remove("hide");
+      resetQuiz();
+      startQuiz();
+  }
+ 
+  function goToHome(){
+      resultBox.classList.add("hide");
+      homeBox.classList.remove("hide");
+      resetQuiz();
+  }
+ 
+  
