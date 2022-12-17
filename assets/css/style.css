@@ -16,3 +16,17 @@ body{
     grid-template-columns: repeat(1, 2fr);
     align-items: center;
 }
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	outline: none;
+}
+.custom-box{
+	max-width: 600px;
+	background-color: #c2c0c0;
+	margin:10px auto;
+	padding: 20px;
+	border-radius: 10px;
+	animation: fadeInRight 1s ease;
+}
