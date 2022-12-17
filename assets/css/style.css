@@ -109,3 +109,27 @@ body{
 .icon a:hover{
     transform: translateY(-10px);
 }
+.quiz-box .question-number,
+.quiz-box .question-text,
+.quiz-box .option-container,
+.quiz-box .next-question-btn,
+.quiz-box .answers-indicator{
+   width: 100%;
+   float: left;
+}
+.quiz-box .question-number{
+	font-size: 18px;
+	color: chocolate;
+	font-weight: 600;
+	border-bottom:1px solid white;
+	padding-bottom: 10px;
+	line-height: 20px
+}
+.quiz-box .question-text{
+	font-size: 22px;
+	color: black;
+	line-height: 28px;
+	font-weight: 400;
+	padding: 20px 0;
+	margin:0;
+}
