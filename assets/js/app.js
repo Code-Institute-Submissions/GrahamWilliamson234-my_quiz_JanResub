@@ -100,3 +100,39 @@ const questionNumber = document.querySelector(".question-number");
   unclickableOptions();
 }
 
+// make all the options unclickable once the user select a option
+function unclickableOptions(){
+    const optionLen = optionContainer.children.length;
+    for(let i=0 ; i<optionLen; i++){
+    	optionContainer.children[i].classList.add("already-answered");
+    }
+ }
+ 
+ function answersIndicator(){
+ 	  answersIndicatorContainer.innerHTML = '';
+ 	  const totalQuestion = questionLimit;
+ 	  for(let i=0; i<totalQuestion; i++){
+ 	  	  const indicator = document.createElement("div");
+         answersIndicatorContainer.appendChild(indicator);
+ 	  }
+ }
+ function updateAnswerIndicator(markType){
+     answersIndicatorContainer.children[questionCounter-1].classList.add(markType);
+ }
+
+ function next(){
+   if(questionCounter === questionLimit){
+   	  quizOver();
+   }
+   else{
+   	 getNewQuestion();
+   }
+ }
+
+ function quizOver(){
+ 	quizBox.classList.add("hide");
+ 	resultBox.classList.remove("hide");
+    quizResult();
+ }
+
+ 
