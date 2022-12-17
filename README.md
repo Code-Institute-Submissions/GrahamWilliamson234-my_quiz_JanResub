@@ -50,6 +50,11 @@ To finish off the design of this website, I added a favicon of a cartoon brain a
 <img title="favicon" alt="Website favicon" src="assets/images/favicon.png";>
 </div>
 
+# Location
+
+All my projects are also available to view on my portfolio website.
+[www.dazl.ie](https://quiz.dazl.ie)
+
 # Validation
 To ensure the functionality of this project I had 3 tasks.
 1. HTML Validation
