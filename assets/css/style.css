@@ -203,4 +203,29 @@ body{
    .quiz-box .btn{
        margin:15px 0;
    }
-   
+   .quiz-box .answers-indicator{
+	border-top: 2px solid white;
+}
+.quiz-box .answers-indicator div{
+	height: 42px;
+	width: 42px;
+	display: inline-block;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 3px;
+	margin-top: 15px;
+}
+.quiz-box .answers-indicator div.correct{
+	background-color: rgb(22, 91, 22);;
+	background-image: url("../images/correct.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.quiz-box .answers-indicator div.wrong{
+	background-color: red;
+	background-image: url("../images/wrong.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
