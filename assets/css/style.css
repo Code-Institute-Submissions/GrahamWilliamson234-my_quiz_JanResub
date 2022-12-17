@@ -156,3 +156,22 @@ body{
 .quiz-box .option-container .option.already-answered{
 	pointer-events: none;
 }
+@keyframes fadeIn{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.quiz-box .option-container .option.correct::before{
+ content: '';
+ position: absolute;
+ left:0;
+ top:0;
+ height: 100%;
+ width: 100%;
+ background-color: rgb(22, 91, 22);;
+ z-index: -1;
+ animation: slideInLeft .5s ease forwards
+}
