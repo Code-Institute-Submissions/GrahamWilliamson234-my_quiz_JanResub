@@ -30,3 +30,15 @@ body{
 	border-radius: 10px;
 	animation: fadeInRight 1s ease;
 }
+.copyright{
+	font-size: 15px;
+	color: white;
+	font-weight: 400;
+	text-align: center;
+    background: transparent;
+    padding: 0px;
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
