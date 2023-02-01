@@ -1,3 +1,5 @@
+// Influnced by, code sourced, and credit given to The WebShala Youtube channel
+
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
 const optionContainer = document.querySelector(".option-container");
