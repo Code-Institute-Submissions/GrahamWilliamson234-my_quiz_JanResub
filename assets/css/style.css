@@ -269,22 +269,58 @@ body{
 		margin-bottom: 15px;
 	}
 	* {
-		width: 90%;
+		width: 93%;
 	}
 	body{
-		padding: 25px;
-		padding-bottom: 180px;
-		height: 150%;
+		padding-top: 50px;
+		padding-left: 15px;
+		padding-bottom: 290px;
+		height: 100%;
 	}
 	.icon{
 		text-align: center;
-		margin-left: 8px;
+		margin-left: 10px;
 	}
 	h1{
-		font-size: 60px;
+		font-size: 50px;
 		text-align: center;
+		margin-left: 18px;
 	}
 	.copyright{
-		padding-left: 50px;
+		padding-left: 45px;
+		font-size: 17px;
+	}
+	.btn{
+		font-size: 20px;
+		padding: 5px;
+		align-items: center;
+	}
+	.custom-box{
+		text-align: center;
+		margin: 18px;
+	}
+	h2{
+		padding-left: 33px;
+	}
+	p{
+		padding-left: 10px;
+	}
+	.quiz-box .question-number{
+		font-size: 20px;
+		padding-left: 15%;
+	}
+	.quiz-box .next-question-btn{
+		padding-left: 10%;
+	}
+	.quiz-box .question-text,
+	.quiz-box .answers-indicator{
+		width: 100%;
+		float: left;
+	}
+	.quiz-box .option-container{
+		height: 100%;
+		width: 100%;
+		float: left;
 	}
 }
+
