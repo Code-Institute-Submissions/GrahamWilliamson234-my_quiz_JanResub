@@ -72,11 +72,13 @@ body{
 }
 
 .home-box p{
+	text-align: center;
 	font-size: 25px;
 	margin-bottom: 10px;
 	line-height: 22px;
 	color: black;
 	font-weight: 400;
+	width: 300px;
 }
 .home-box p span{
 	font-weight: 500;
@@ -85,16 +87,20 @@ body{
   margin-top: 20px;
 }
 .btn{
-	padding: 15px;
-	background-color: rgb(22, 91, 22);
-	color: white;
+	padding: 10px;
+	background-color: rgb(186, 125, 10);
+	color: rgb(8, 8, 8);
 	border:none;
 	border-radius: 15px;
 	font-family: 'Cinzel', serif;	font-weight: 400;
-	font-size: 16px;
+	font-size: 20px;
 	cursor: pointer;
 	display: inline-block;
 }
+.btn:hover{
+	color: rgb(249, 243, 243);
+}
+
 .icon a{
     display: inline-flex;
     align-items: center;
