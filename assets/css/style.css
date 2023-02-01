@@ -110,23 +110,30 @@ body{
     height: 75px;
 	font-weight: 400;
     margin: 0px 5px;
-    color: #c2c0c0;
+    color: white;
     font-size: 2.2rem;
     transition: all .40s;
 }
 .icon a:hover{
-    transform: translateY(-10px);
-}
-.quiz-box .question-number,
-.quiz-box .question-text,
-.quiz-box .option-container,
-.quiz-box .next-question-btn,
-.quiz-box .answers-indicator{
-   width: 100%;
-   float: left;
+    transform: translateY(-20px);
 }
 .quiz-box .question-number{
-	font-size: 18px;
+	padding-left: 25%;
+}
+.quiz-box .question-text,
+.quiz-box .option-container{
+	width: 500px;
+}
+.quiz-box .answers-indicator{
+   width: 100%;
+   float: center;
+}
+.quiz-box .next-question-btn{
+	padding-left: 32%;
+}
+
+.quiz-box .question-number{
+	font-size: 30px;
 	color: chocolate;
 	font-weight: 600;
 	border-bottom:1px solid white;
@@ -134,6 +141,7 @@ body{
 	line-height: 20px
 }
 .quiz-box .question-text{
+	text-align: center;
 	font-size: 22px;
 	color: black;
 	line-height: 28px;
@@ -141,18 +149,17 @@ body{
 	padding: 20px 0;
 	margin:0;
 }
-.quiz-box .question-text img{
-	max-width: 100%;
-	display: block;
-	margin-top: 15px;
-}
+
 .quiz-box .option-container .option{
+	text-align: center;
+	margin-left: 25%;
 	background-color: white;
+	max-width: 50%;
 	padding:8px 12px;
 	font-size: 16px;
 	line-height: 22px;
 	color:black;
-	border-radius: 5px;
+	border-radius: 50px;
 	margin-bottom: 10px;
 	cursor: pointer;
 	text-transform: capitalize;
@@ -160,6 +167,11 @@ body{
 	animation: fadeIn 0.3s ease forwards;
 	position: relative;
 	overflow: hidden;
+	
+}
+.quiz-box .option-container .option:hover{
+	color: rgb(223, 86, 12);
+	font-size: 30px;
 }
 .quiz-box .option-container .option.already-answered{
 	pointer-events: none;
