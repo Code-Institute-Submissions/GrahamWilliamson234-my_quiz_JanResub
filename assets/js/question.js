@@ -1,4 +1,3 @@
-// Array of Questions
 const quiz = [
     {
         q:'Where would be if you were standing on the Spanish Steps?',
